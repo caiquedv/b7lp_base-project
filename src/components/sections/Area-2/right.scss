@@ -1,0 +1,29 @@
+.area_2--content_right {
+    display: flex;
+    width: 100%;
+
+    div:nth-child(2) {
+        text-align: right;
+        padding-left: 16px;
+
+        span {
+            color: #2563EB;
+            font-size: 20px;
+        }
+
+        h3 {
+            color: #D9E3EA;
+            font-size: 32px;
+            margin: 8px 0 12px 0;
+        }
+
+        p {
+            font-size: 20px;
+            margin: 0 0 16px 0;
+        }
+    }
+
+    img {
+        max-width: 100%;
+    }
+}

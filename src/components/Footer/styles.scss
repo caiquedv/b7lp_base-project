@@ -1,0 +1,30 @@
+footer {
+    padding: 64px 0;
+
+    img {
+        width: 44px;
+        margin-bottom: 16px;
+    }
+
+    div {
+        margin-bottom: 16px;
+        
+
+        ul {
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+
+            svg {
+                fill: blue;
+                width: 32px;
+                cursor: pointer;
+
+                &:hover {
+                    opacity: .5;
+                }
+            }
+        }       
+    }
+}

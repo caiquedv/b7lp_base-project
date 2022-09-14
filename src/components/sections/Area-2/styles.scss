@@ -1,0 +1,38 @@
+#area_2 {
+    padding-top: 40px;
+    text-align: center;
+
+    .green {
+        display: flex;
+        justify-content: center;
+
+        div {
+            padding: 4px 12px;
+            margin: 8px 8px 16px 8px;
+            background-color: #A7F3D0;
+            border-radius: 15px;
+            color: #059669;
+            font-weight: bold;
+            font-size: 14px;
+        }
+    }
+
+    h2 {
+        font-size: 40px;
+        margin: 0;
+        margin-bottom: 16px;
+        color: #D9E3EA;
+
+        +p {
+            margin: 0 auto 64px auto;
+            font-size: 20px;
+            max-width: 80%;
+        }
+    }
+
+    .area_2--grid {
+        padding: 30px 0;
+        display: grid;
+        gap: 5rem;
+    }
+}

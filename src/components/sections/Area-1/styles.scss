@@ -1,0 +1,55 @@
+#area_1 {
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 1px solid rgb(51, 54, 58);
+
+    h2 {
+        margin: 0 0 16px 0;
+        font-size: 40px;
+        color: #D9E3EA;
+    }
+
+    p:nth-child(2) {
+        margin: 0;
+        padding-bottom: 64px;
+        font-size: 20px;
+    }
+
+    .area_1--grid {
+        background-color: #25282C;
+        padding: 40px 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        div {
+            display: flex;
+            flex-direction: column;
+            padding: 0 32px;
+            font-size: 18px;
+
+            span {
+                color: #2563EB;
+                font-size: 40px;
+                font-weight: bold;
+                margin-bottom: 8px;
+            }
+
+            &:nth-child(2) {
+                border-left: 1px solid rgb(51, 54, 58);
+                border-right: 1px solid rgb(51, 54, 58);
+            }
+        }
+    }
+
+    p:nth-last-child(1) {
+        margin: 28px 78px;
+        color: #D9E3EA;
+        font-size: 20px;
+    }
+
+    @media (max-width: 600px) {
+        .area_1--grid {
+            grid-template-columns: 1fr;
+        }
+    }
+}

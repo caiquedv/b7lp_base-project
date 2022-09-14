@@ -1,0 +1,21 @@
+#FAQ {
+    padding: 80px 0;
+    
+    h2 {
+        text-align: center;
+    }
+
+    .FAQ--grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 2rem;
+
+        h4 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}

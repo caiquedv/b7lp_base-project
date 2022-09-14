@@ -1,0 +1,38 @@
+html {
+    background-color: #151719;
+
+    body {
+        margin: auto;
+        padding: 0 24px 0 24px;
+        box-sizing: border-box;
+        min-height: 100vh;
+        color: #9BA9B4;
+        max-width: 1105px;
+        overflow-x: hidden;
+
+        h1 {
+            font-size: 3.25rem;
+            margin: 0 0 1rem 0;
+            color: #D9E3EA;
+        }
+
+        h2 {
+            font-size: 40px;
+            color: #D9E3EA;
+            margin: 0;
+            margin-bottom: 16px;
+        }
+
+        h4 {
+            font-size: 24px;
+            color: #D9E3EA;
+            margin: 0;
+            margin-bottom: 16px;
+
+            span {
+                color: #9BA9B4;
+            }
+        }
+    }
+}
+
